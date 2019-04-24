@@ -28,6 +28,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+github: [metadata]
+repository: nikotamarb/nikotamarb.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
