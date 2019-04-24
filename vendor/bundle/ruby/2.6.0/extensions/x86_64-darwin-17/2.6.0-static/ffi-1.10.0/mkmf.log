@@ -2,7 +2,7 @@
 package configuration for libffi is not found
 have_header: checking for ffi.h... -------------------- no
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib     -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib     -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
@@ -16,7 +16,7 @@ checked program was:
 6: }
 /* end */
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 conftest.c:3:10: fatal error: 'ffi.h' file not found
 #include <ffi.h>
          ^~~~~~~
@@ -32,7 +32,7 @@ checked program was:
 
 find_header: checking for ffi.h in /usr/local/include,/usr/include/ffi... -------------------- yes
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 conftest.c:3:10: fatal error: 'ffi.h' file not found
 #include <ffi.h>
          ^~~~~~~
@@ -44,7 +44,7 @@ checked program was:
 3: #include <ffi.h>
 /* end */
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -I/usr/local/include conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -I/usr/local/include conftest.c -o conftest.i"
 conftest.c:3:10: fatal error: 'ffi.h' file not found
 #include <ffi.h>
          ^~~~~~~
@@ -56,7 +56,7 @@ checked program was:
 3: #include <ffi.h>
 /* end */
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -I/usr/include/ffi conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe -I/usr/include/ffi conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -68,7 +68,7 @@ checked program was:
 
 have_library: checking for ffi_call() in -lffi... -------------------- yes
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib     -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib     -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
@@ -96,7 +96,7 @@ checked program was:
 
 have_func: checking for ffi_closure_alloc()... -------------------- no
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 conftest.c:14:57: error: use of undeclared identifier 'ffi_closure_alloc'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_closure_alloc; return !p; }
                                                         ^
@@ -119,13 +119,13 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_closure_alloc; return !p; }
 /* end */
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
 Undefined symbols for architecture x86_64:
   "_ffi_closure_alloc", referenced from:
-      _t in conftest-b3b463.o
+      _t in conftest-6287fb.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -151,7 +151,7 @@ checked program was:
 
 have_func: checking for ffi_raw_call()... -------------------- no
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 conftest.c:14:57: error: use of undeclared identifier 'ffi_raw_call'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_raw_call; return !p; }
                                                         ^
@@ -174,13 +174,13 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))ffi_raw_call; return !p; }
 /* end */
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
 Undefined symbols for architecture x86_64:
   "_ffi_raw_call", referenced from:
-      _t in conftest-675a60.o
+      _t in conftest-35e0d4.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -206,7 +206,7 @@ checked program was:
 
 have_header: checking for shlwapi.h... -------------------- no
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 conftest.c:3:10: fatal error: 'shlwapi.h' file not found
 #include <shlwapi.h>
          ^~~~~~~~~~~
@@ -222,7 +222,7 @@ checked program was:
 
 have_header: checking for ruby/thread.h... -------------------- yes
 
-" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
+" clang -E -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe  conftest.c -o conftest.i"
 checked program was:
 /* begin */
 1: #include "ruby.h"
@@ -234,7 +234,7 @@ checked program was:
 
 have_func: checking for rb_thread_blocking_region()... -------------------- no
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 conftest.c:14:57: error: use of undeclared identifier 'rb_thread_blocking_region'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
                                                         ^
@@ -257,13 +257,13 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_blocking_region; return !p; }
 /* end */
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
 Undefined symbols for architecture x86_64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-4f5836.o
+      _t in conftest-b629ba.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -289,7 +289,7 @@ checked program was:
 
 have_func: checking for rb_thread_call_with_gvl()... -------------------- yes
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 conftest.c:14:57: error: use of undeclared identifier 'rb_thread_call_with_gvl'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_with_gvl; return !p; }
                                                         ^
@@ -312,7 +312,7 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_with_gvl; return !p; }
 /* end */
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.
@@ -339,7 +339,7 @@ checked program was:
 
 have_func: checking for rb_thread_call_without_gvl()... -------------------- yes
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 conftest.c:14:57: error: use of undeclared identifier 'rb_thread_call_without_gvl'
 int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
                                                         ^
@@ -362,7 +362,7 @@ checked program was:
 14: int t(void) { void ((*volatile p)()); p = (void ((*)()))rb_thread_call_without_gvl; return !p; }
 /* end */
 
-" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include -I/usr/local/opt/mysql@5.7/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib -L/usr/local/opt/mysql@5.7/lib -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
+" clang -o conftest -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17 -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/ruby/backward -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0 -I. -I/usr/include/ffi -I/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -O3 -Wno-error=shorten-64-to-32  -pipe conftest.c  -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib -L. -L/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib  -fstack-protector-strong -L/usr/local/lib    -lffi  -lruby.2.6-static -framework Security -framework Foundation -lpthread -lgmp -ldl -lobjc -lffi   "
 ld: warning: text-based stub file /System/Library/Frameworks//Security.framework/Security.tbd and library file /System/Library/Frameworks//Security.framework/Security are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//Foundation.framework/Foundation.tbd and library file /System/Library/Frameworks//Foundation.framework/Foundation are out of sync. Falling back to library file for linking.
 ld: warning: text-based stub file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation.tbd and library file /System/Library/Frameworks//CoreFoundation.framework/Versions/A/CoreFoundation are out of sync. Falling back to library file for linking.

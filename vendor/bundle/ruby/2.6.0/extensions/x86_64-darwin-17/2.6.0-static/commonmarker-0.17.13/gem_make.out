@@ -1,11 +1,11 @@
-current directory: /Users/koichi.yanagimoto/nikotama-rb/nikotama-rb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
-/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/bin/ruby -I /Users/koichi.yanagimoto/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20190424-83460-c04ezq.rb extconf.rb
+current directory: /Users/koichi.yanagimoto/nikotamarb/nikotamarb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/bin/ruby -I /Users/koichi.yanagimoto/.rbenv/versions/2.6.1/lib/ruby/2.6.0 -r ./siteconf20190424-22480-2ig82u.rb extconf.rb
 creating Makefile
 
-current directory: /Users/koichi.yanagimoto/nikotama-rb/nikotama-rb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+current directory: /Users/koichi.yanagimoto/nikotamarb/nikotamarb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" clean
 
-current directory: /Users/koichi.yanagimoto/nikotama-rb/nikotama-rb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+current directory: /Users/koichi.yanagimoto/nikotamarb/nikotamarb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR="
 compiling arena.c
 compiling autolink.c
@@ -20,7 +20,7 @@ In file included from ./houdini.h:9:
 ./config.h:8:9: warning: 'HAVE_STDBOOL_H' macro redefined [-Wmacro-redefined]
 #define HAVE_STDBOOL_H
         ^
-/Users/koichi.yanagimoto/.rbenv/versions/2.6.3/include/ruby-2.6.0/x86_64-darwin17/ruby/config.h:27:9: note: previous definition is here
+/Users/koichi.yanagimoto/.rbenv/versions/2.6.1/include/ruby-2.6.0/x86_64-darwin17/ruby/config.h:27:9: note: previous definition is here
 #define HAVE_STDBOOL_H 1
         ^
 1 warning generated.
@@ -52,6 +52,6 @@ compiling utf8.c
 compiling xml.c
 linking shared-object commonmarker/commonmarker.bundle
 
-current directory: /Users/koichi.yanagimoto/nikotama-rb/nikotama-rb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
+current directory: /Users/koichi.yanagimoto/nikotamarb/nikotamarb.github.io/vendor/bundle/ruby/2.6.0/gems/commonmarker-0.17.13/ext/commonmarker
 make "DESTDIR=" install
-/usr/local/bin/ginstall -c -m 0755 commonmarker.bundle ./.gem.20190424-83460-104w2fw/commonmarker
+/usr/local/bin/ginstall -c -m 0755 commonmarker.bundle ./.gem.20190424-22480-1nhr09y/commonmarker

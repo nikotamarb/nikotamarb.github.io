@@ -1,1 +1,1 @@
-/Users/koichi.yanagimoto/nikotama-rb/nikotama-rb.github.io/vendor/bundle/ruby/2.6.0/gems/ffi-1.10.0/ext/ffi_c/libffi/src/x86/ffitarget.h
+/Users/koichi.yanagimoto/nikotamarb/nikotamarb.github.io/vendor/bundle/ruby/2.6.0/gems/ffi-1.10.0/ext/ffi_c/libffi/src/x86/ffitarget.h
