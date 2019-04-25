@@ -15,11 +15,11 @@ You can find us:
 [github-org]: https://github.com/nikotama-rb
 
 Hashtag: #nikotamarb  
-Orgnaizer: [kyanagimoto][kyanagimoto-twitter] / [huin][huin-twitter] / [kisshy][kissy-github] / [yusuke][yusuke-github] / [unlearned][unlearned-github]
+Orgnaizer: [kyanagimoto][kyanagimoto-twitter] / [huin][huin-twitter] / [kisshy][kissy-github] / [yusuke][yusuke-github] / [unlearned][unlearned-github] / [hide][hide-github]
 
 [kyanagimoto-twitter]: https://twitter.com/kyanagimoto
 [huin-twitter]: https://twitter.com/huin
 [kissy-github]: https://github.com/kisshy0601
 [yusuke-github]: https://github.com/ysk1180
 [unlearned-github]: https://github.com/unlearned
-
+[hide-github]: https://github.com/exelexe
