@@ -4,8 +4,6 @@ title:  "[Announcement] nikotama.rb #1"
 date:   2019-05-13 13:00:00 +0900
 categories: update
 ---
-# [Announcement] nikotama.rb #1
-
 We'll hold nikotama.rb #1 on 28th May @RakutenCrimsonHouse!  
 Time is from 19:30 ~ 21:00.  
 --
