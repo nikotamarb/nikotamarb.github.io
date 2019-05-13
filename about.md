@@ -9,10 +9,12 @@ Nikotama.rb is a regional Rubyist group around Futakotamagawa area.
 
 You can find us:
 [Twitter][twitter-account] /
-[Github][github-org]
+[Github][github-org] / 
+[Connpass][connpass]
 
 [twitter-account]: https://twitter.com/nikotama_rb
 [github-org]: https://github.com/nikotama-rb
+[connpass]: https://nikotamarb.connpass.com
 
 Hashtag: #nikotamarb  
 Organizers: [kyanagimoto][kyanagimoto-twitter] / [huin][huin-twitter] / [kisshy][kissy-github] / [yusuke][yusuke-github] / [unlearned][unlearned-github] / [hide][hide-github] / [shohei][shohei-github]
