@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Announcement] nikotama.rb #2"
-date:   2019-06-19 10:00:00 +0900
+date:   2019-06-17 10:00:00 +0900
 categories: update
 ---
 Hi!  
