@@ -28,8 +28,11 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
+gems:
+  - jekyll-lunr-js-search
 github: [metadata]
 repository: nikotamarb/nikotamarb.github.io
+image: /assets/img/nikotamarb_header.png
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
